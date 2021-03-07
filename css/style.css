@@ -1,0 +1,280 @@
+/* ########################
+Template Name: HOBI || HTML Template;
+Authore: Md.Sobuj Sarkar;
+Version: 1.0.0;
+Created: 8 March 2021;
+File Description: Main CSS file of the template;
+################################################### */
+
+/* ########################
+01. General
+
+font-family: 'Rubik', sans-serif;
+font-family: 'Rufina', serif;
+################################################### */ 
+
+/* ########################
+Typography
+################################################### */
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&family=Rufina:wght@400;700&display=swap');
+
+body{
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #6e7797;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1,
+h2,h3,
+h4,h5,h6{
+    font-family: 'Rufina', serif;
+    font-weight: 700;
+    color: #000a2d;
+    margin: 0;
+    padding: 0;   
+}
+h2{
+    font-size: 90px;
+}
+h4{
+    font-size: 24px;
+}
+p{  
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #6e7797;
+    margin: 0; 
+    padding: 0;   
+}
+a{
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: #000a2d;
+    text-decoration: none;    
+}
+/* ########################
+HEADER STYLE START HERE
+################################################### */
+header{
+    padding: 40px 0;
+    background-color: #fff;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.navigation-manu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+}
+nav ul li a{
+    font-size: 14px;
+    font-weight: 500 ;
+    line-height: 24px;
+    color:#000a2d ;
+    text-transform: capitalize;
+    padding: 0 20px;
+    transition: .3s ease;
+}
+nav ul li a:hover {
+    color: #ff3d4f;
+    border-bottom: 2px solid #ff3d4f;
+    padding: 10px 0;
+    cursor: pointer;
+  
+}
+.button{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.downlode-button button{
+    font-family: 'Rubik', sans-serif;
+    font-size:14px;
+    font-weight: 500;
+    color: #fff;
+    background-color: #ff3d4f;
+    border: 1px solid #ff3d4f;
+    border-radius: 50px;
+    height: 50px;
+    width: 200px;
+    margin-right: 15px;
+}
+.downlode-button button:focus{
+    outline: none;
+}
+.downlode-button .menu-icon{
+    font-size: 14px;
+    font-weight: 400;
+    /* background-color: #ff3d4f; */
+}
+/* ########################
+BANNAR STYLE START HERE
+################################################### */
+#banner{
+    background-color: #f6f5ff;
+   padding: 200px 0;
+}
+.banner-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.button-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner-content{
+    width: 65%;
+}
+.banner-img{
+    width: 35%;
+}
+.banner-content h4{
+    font-size: 20px;
+    font-weight: 400;
+    color: #ff3d4f;
+    padding: 30px 0;
+}
+.banner-content h2{
+    font-size: 80px;
+    font-weight: 700;
+    color: #000a2d;
+    line-height: 90px;
+    padding: 20px 0;
+}
+.banner-content p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #6e7797;
+    padding-bottom: 20px;
+
+}
+.button-content button{
+    font-family: 'Rubik', sans-serif;
+    font-size:14px;
+    font-weight: 500;
+    color: #fff;
+    background-color: #ff3d4f;
+    border: 1px solid #ff3d4f;
+    border-radius: 50px;
+    height: 50px;
+    width: 200px;
+
+}
+.button-content button:focus{
+    outline: none;
+}
+.button-content .play-icon{
+ font-size: 14px;
+ font-weight: 400;
+}
+.button-content .play-icon p{
+    font-size: 14px;
+    font-weight: 500;
+    color:#ff3d4f;
+    text-transform: uppercase;  
+}
+.button-content .play-content p{
+    font-size: 14px;
+    font-weight: 500;
+    color:#ff3d4f;
+    padding-right: 250px;
+    text-transform: uppercase;
+}
+
+/* ########################
+ABOUT STYLE START HERE
+################################################### */
+#about{
+background-color: #fff;
+padding: 125px 0;
+}
+.about-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.content-text{
+    width: 50%;
+}
+.content-button{
+    width: 50%;
+
+}
+
+.content-text p{
+    font-size: 14px;
+    font-weight: 400;
+    color:#ff3d4f ;
+    text-transform: capitalize;
+    padding: 20px 0;
+}
+.content-text h2{
+    font-size: 70px;
+    font-weight: 700;
+    color: #000a2d;
+    line-height: 90px; 
+}
+.content-text p{
+    font-size: 14px;
+    font-weight: 400;
+    color:#6e7797;
+    line-height: 24px;
+ 
+}
+.button-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.button-item .button1 button{
+    font-family: 'Rubik', sans-serif;
+    font-size:14px;
+    font-weight: 500;
+    color: #fff;
+    background-color: #ff3d4f;
+    border: 1px solid #ff3d4f;
+    border-radius: 50px;
+    height: 50px;
+    width: 200px;
+   
+}
+.button-item .button1 button:focus{
+    outline: none;
+}
+.button-item .button2 button{
+    font-family: 'Rubik', sans-serif;
+    font-size:14px;
+    font-weight: 500;
+    color:#6e7797;
+    background-color: transparent;
+    border: 1px solid #e5e9ff;
+    border-radius: 50px;
+    height: 50px;
+    width: 200px;
+    padding: 15px 0;
+
+}
+.button-item .button2 button:focus{
+    outline: none;
+}
+
+
+
+
+
+
+
